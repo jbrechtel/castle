@@ -1,5 +1,4 @@
 require 'rake'
-include Rake::DSL
 
 sh "rm -rf ~/.oh-my-zsh"
 sh "git clone git@github.com:jbrechtel/oh-my-zsh.git ~/.oh-my-zsh"
